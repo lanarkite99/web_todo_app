@@ -10,9 +10,9 @@ def add_actions():
         functions.set_act(actions)
         st.session_state["adding"]=""
 
-st.title("first app")
-st.subheader("subheading")
-st.text("this list contains list of actions to complete")
+st.title("Actions to Complete")
+st.subheader("To-Dos")
+st.text("List of actions to complete")
 
 for index,action in enumerate(actions):
     checkbox=st.checkbox(action, key=action)
