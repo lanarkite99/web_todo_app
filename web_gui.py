@@ -25,4 +25,3 @@ for index,action in enumerate(actions):
 st.text_input(label="", placeholder="add a new action",
               on_change=add_actions ,key="adding")
 
-st.session_state
